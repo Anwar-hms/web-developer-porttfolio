@@ -33,13 +33,41 @@ nav a{
 }
 nav ul{
     display: flex;
+    align-items: center;
 }
 .btn{
     background-color: #FD6E0A;
-    width: 150px;
-    height: 64px;
+    padding: 18px 35px;
     border-radius: 5px;
-    border-color: #FD6E0A;
+   border: none;
     color: #FFFFFF;
     font-size: 20px;
+}
+.hi{
+    font-weight: 600;
+    font-size: 45px;
+}
+.mary-head{
+    font-size: 85px;
+    font-weight: bold;
+}
+.paragrap{
+    font-size: 18px;
+}
+.banner-content{
+    max-width: 580;
+}
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.profile-pic{
+    width: 584px;
+    height: 676;
 }
